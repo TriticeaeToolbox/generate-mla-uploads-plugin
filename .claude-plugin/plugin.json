@@ -1,0 +1,11 @@
+{
+  "name": "generate-mla-uploads",
+  "version": "1.0.1",
+  "description": "This plugin contains a skill that can be used to generate Major Locus Allele upload files for breedbase",
+  "author": {
+    "name": "David Waring",
+    "email": "<djw64@cornell.edu>",
+    "url": "https://github.com/dwaring87"
+  },
+  "repository": "https://github.com/TriticeaeToolbox/generate-mla-uploads-plugin"
+}
