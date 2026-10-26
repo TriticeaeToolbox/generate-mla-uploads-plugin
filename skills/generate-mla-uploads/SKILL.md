@@ -42,4 +42,7 @@ It is your job to match the marker / gene and allele names in the breeder data t
 The final output should include two directories:
 
 - `./bin/` - should include any code or scripts that are used to generate the .vcf file.  Always generate a `run.sh` script that can be used to regenerate the .vcf file.
-- `./output/` - should contain any generated output files.  Always generate a `parsed.vcf` file that contains the generated VCF data.  Also include tables in a markdown file that show all of the matched genes and alleles from the original source data to the gene and allele names in the MLA specification.
+- `./output/` - should contain any generated output files.
+	- Always generate a `parsed.vcf` file that contains the generated VCF data.
+	- Also include tables in a markdown file that show all of the matched genes and alleles from the original source data to the gene and allele names in the MLA specification.
+	- Always generate a `accessions.csv` file that contains a table of the accessions / samples found in the data.  This file should be in the format of a breedbase accessions upload template and contain (at a minimum) an `accession_name` column containing the accession / sample name and a `species_name` column containing the genus and species of the accession.

@@ -23,7 +23,7 @@ claude plugin install generate-mla-uploads@t3-marketplace
 
 ## Output
 
-After running the `/generate-mla-uploads` command and following any prompts that the AI agent may ask, you should have an `upload_templates/` directory that contains:
+After running the `/generate-mla-uploads` command and following any prompts that the AI agent may ask, you should have an `output/` directory that contains:
 
 - a parsed VCF file that contains the Major Loci as markers and the allele values for the samples in the data
 - an accession upload template containing the samples as accessions
